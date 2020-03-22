@@ -1,7 +1,7 @@
 <?php
     namespace backend\controllers;
 
-    use Interop\Container\ContainerInterface;
+    use Psr\Container\ContainerInterface;
 
     abstract class controller {
         protected $container;

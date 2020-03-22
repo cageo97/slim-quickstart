@@ -19,8 +19,8 @@
 
     $slim = new \Slim\App([
         "settings" => [
-            "displayErrorDetails" => (bool)APP_DEBUG,
-            "debug" => (bool)APP_DEBUG,
+            "displayErrorDetails" => APP_DEBUG,
+            "debug" => APP_DEBUG,
             "twig" => APP_TWIG
         ],
         "config" => [
